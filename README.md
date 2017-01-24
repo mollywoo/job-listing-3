@@ -1,5 +1,5 @@
 # README
-补交第一周作业
+第二遍练习。
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
