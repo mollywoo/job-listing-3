@@ -14,7 +14,7 @@ class Admin::JobsController < ApplicationController
     @job = Job.new
   end
 
-  def creat
+  def create
     @job = Job.new(job_params)
 
     if @job.save
