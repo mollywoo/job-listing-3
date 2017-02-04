@@ -18,3 +18,56 @@
  @import "bootstrap-sprockets";
  @import "bootstrap";
  @import "font-awesome";
+ .jumbotron {
+   background-image:url('http://3052pp2c52bk3nlmmdz7dwua.wpengine.netdna-cdn.com/wp-content/uploads/2013/10/iStock_000011259011Small-760x450.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding-bottom: 110px;
+ }
+
+ .title {
+   font-family: "Helvetica Neue", "Microsoft Yahei", 微软雅黑;
+   text-align: left;
+   margin-top: 60px;
+   margin-bottom: 200px;
+ }
+
+ .slogan {
+   margin-top: 10px;
+   margin-bottom: 50px;
+   text-align: center;
+   color: white;
+   top: 12px;
+ }
+
+ .lead {
+   margin-bottom: 60px;
+   text-align: center;
+   color: white
+ }
+
+ .caption {
+   margin: 30px;
+   text-align:center;
+   top: 20px;
+ }
+
+ .thumbnail {
+   border: 0 none;
+   box-shadow: none;
+   margin-top: 60px;
+ }
+
+ .custab{
+   border: 1px solid #ccc;
+   padding: 5px;
+   margin:5% 0;
+   box-shadow: 3px 3px 2px #ccc;
+
+   transition: 0.5s;
+ }
+
+ .custab:hover{
+   box-shadow: 3px 3px 0px transparent;
+   transition: 0.5s;
+ }
