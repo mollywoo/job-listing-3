@@ -18,6 +18,7 @@
  @import "bootstrap-sprockets";
  @import "bootstrap";
  @import "font-awesome";
+
  .jumbotron {
    background-image:url('http://3052pp2c52bk3nlmmdz7dwua.wpengine.netdna-cdn.com/wp-content/uploads/2013/10/iStock_000011259011Small-760x450.jpg');
    background-repeat: no-repeat;
@@ -35,14 +36,14 @@
  .slogan {
    margin-top: 10px;
    margin-bottom: 50px;
-   text-align: center;
-   color: white;
+   text-align: left;
+   color: red;
    top: 12px;
  }
 
  .lead {
    margin-bottom: 60px;
-   text-align: center;
+   text-align: black;
    color: white
  }
 
